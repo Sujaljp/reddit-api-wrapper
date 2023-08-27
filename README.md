@@ -61,3 +61,26 @@ This is a reddit api wrapper projects which fetches the top news of Formula1 sub
 * [PRAW](https://praw.readthedocs.io/en/latest/) : Package to handle the Reddit API'S 
 * [django-cors-header](https://pypi.org/project/django-cors-headers/) : To handle cors error (connecting the backend to frontend)
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) : To create the virtual environment.
+
+## API routes
+
+Returns the 10 hot posts of Formula1 subreddit
+
+        {
+            'Endpoint': '/hot/',
+            'method': 'GET',
+        }
+
+Returns the 10 new posts of Formula1 subreddit
+
+        {
+            'Endpoint': '/new/',
+            'method': 'GET',
+        }
+
+Returns the 10 top posts of Formula1 subreddit
+
+        {
+            'Endpoint': '/top/',
+            'method': 'GET',
+        }
