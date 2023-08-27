@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reddit Articles</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>Formula 1</h1>
+            </li>
+            <li onclick="fetchArticles('hot')">
+                <h3>Hot</h3>
+            </li>
+            <li onclick="fetchArticles('new')">
+                <h3>New</h3>
+            </li>
+            <li onclick="fetchArticles('top')">
+                <h3>Top</h3>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" id="articles-container">
+        <!-- Articles will be added here -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
